@@ -84,6 +84,8 @@ int main() {
     } while (choice != 7);
 }
 ```
+---
+
 ### Q2. Develop a menu driven program demonstrating the following operations on Circular Queues: enqueue(), dequeue(), isEmpty(), isFull(), display(), and peek().
 ```cpp
 #include <iostream>
@@ -171,6 +173,8 @@ int main() {
     } while (choice != 7);
 }
 ```
+---
+
 ### Q3. Write a program interleave the first half of the queue with second half.
 #### Sample Input: 4 7 11 20 5 9
 #### Sample Output: 4 20 7 5 11 9
@@ -221,6 +225,8 @@ int main() {
     cout << endl;
 }
 ```
+---
+
 ### Q4. Write a program to find first non-repeating character in a string using Queue.
 #### Sample Input: a a b c
 #### Sample Output: a -1 b b
@@ -254,6 +260,8 @@ int main() {
     firstNonRepeating(s);
 }
 ```
+---
+
 ### Q5. Write a program to implement a stack using
 #### (a) Two queues
 #### (b) One queue
@@ -330,3 +338,4 @@ int main() {
     s2.top();
 }
 ```
+---
